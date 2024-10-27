@@ -30,7 +30,7 @@ const AboutPage = () => {
           <div className="flex flex-col gap-12 justify-center">
             {/* BIOGRAPHY IMAGE */}
             <Image
-              src=""//put image here, ur image should be in public folder
+              src="https://i.imgur.com/OpEkoZC.jpeg"//put image here, ur image should be in public folder
               alt=""
               width={112}
               height={112}
@@ -40,12 +40,14 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">Biography</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-            Juan Sebastián Quintero Fernández, Colombian software engineer, graduated in 2023 with UI/UX focus and 4.11/5.0 GPA. 
-            In 2023, developed website and advertising strategy
-            for Mario Romero's political campaign, candidate for mayor of Villavicencio 2024, resulting in over 15,000 votes. 
-            In early 2024, led team to create and manage website for Liceo del Rosario school in Bogotá.
-            Currently, engineer at Docplus.com.co for Multisalud EPS, created Docplus pharmacy page connected to inventory. 
-            Plans to integrate medical services. Fluent in Spanish, conversational English and Portuguese.
+            Juan Sebastian Quintero Fernandez is a Colombian Computer Science Engineer who
+            graduated in 2023 with a distinguished GPA of 4.11/5.0. Throughout his professional
+            career, he has developed innovative web solutions, including an interactive survey
+            platform and a sophisticated data analysis system. His experience includes notable
+            freelance projects, such as developing a political campaign website, and he holds an 
+            Associate Data Engineer certification from DataCamp. Fluent in Spanish and English,
+            with basic Portuguese skills, he focuses on creating intuitive technological solutions that
+            prioritize user experience.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
@@ -86,7 +88,7 @@ const AboutPage = () => {
               transition={{ delay: 0.2 }}
               className="font-bold text-2xl"
             >
-              SKILLS
+              SKILLS AS FULL STACK DEVELOPER AND DATA ENGINEER
             </motion.h1>
             {/* SKILL LIST */}
             <motion.div
@@ -107,7 +109,7 @@ const AboutPage = () => {
                 Next.js
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                SCSS
+                Vite
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Tailwind CSS
@@ -122,46 +124,46 @@ const AboutPage = () => {
                 Node.js
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Nest.js
+                Firebase
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Express.js
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Spring Boot
-              </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                GraphQL
-              </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Apollo
+                Python
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Redux
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Cloud Computing
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                SnowSQL
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Framer Motion
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Three.js
+                Figma
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Vite
+                Adobe
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Docker
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                AWS
+                Azure
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Firebase
+                Github
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Git
+                Java
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Figma
+                Snowflake
               </div>
             </motion.div>
             {/* SKILL SCROLL SVG */}
@@ -214,21 +216,18 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Senior JavaScript Engineer
+                    Freelancer Data Engineer
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    I led web development, offering expertise in JavaScript
-                    frameworks.{" "}
+                    I provided data engineering solutions, including data analysis and
+                    visualization, using React, Python and Snowflake.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2024 - Present
+                    2024
                   </div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Apple
-                  </div>
                 </div>
                 {/* CENTER */}
                 <div className="w-1/6 flex justify-center">
@@ -257,20 +256,20 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Senior React Developer
+                    Project Manager and Developer
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    I spearheaded React-based application development,
-                    leveraging advanced skills.{" "}
+                  Mario Romero's political campaign, candidate for mayor of Villavicencio 2024,
+                  resulting in over 15,000 votes.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2019 - 2024{" "}
+                    2023 - 2024{" "}
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Microsoft
+                    Marioromero.com.co
                   </div>
                 </div>
               </div>
@@ -280,16 +279,16 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Freelancer{" "}
+                    Freelancer designer and developer{" "}
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
                     I provided web solutions, applying a range of technologies
-                    to address client requirements.{" "}
+                    to address client requirements using React and Figma.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2010 - 2019{" "}
+                    2020 - 2023{" "}
                   </div>
                 </div>
                 {/* CENTER */}
