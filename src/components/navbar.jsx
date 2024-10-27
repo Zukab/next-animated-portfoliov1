@@ -90,16 +90,16 @@ const Navbar = () => {
       </div>
       {/* SOCIAL */}
       <div className="hidden md:flex gap-4 w-1/3">
-        <Link href="https://github.com/Zukab">
+        <Link href="https://github.com/Zukab" target="_blank" rel="noopener noreferrer">
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="https://www.instagram.com/bff_sebas">
+        <Link href="https://www.instagram.com/bff_sebas" target="_blank" rel="noopener noreferrer">
           <Image src="/instagram.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="https://www.linkedin.com/in/juan-sebastian-quintero-fernandez-35b514255/">
+        <Link href="https://www.linkedin.com/in/juan-sebastian-quintero-fernandez-35b514255/" target="_blank" rel="noopener noreferrer">
           <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="https://www.datacamp.com/portfolio/juansebastianquinterofernandez">
+        <Link href="https://www.datacamp.com/portfolio/juansebastianquinterofernandez" target="_blank" rel="noopener noreferrer">
           <Image src="/datacamp.png" alt="" width={24} height={24} />
         </Link>
       </div>

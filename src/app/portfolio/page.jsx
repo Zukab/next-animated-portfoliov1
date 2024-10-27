@@ -9,31 +9,31 @@ const items = [
   {
     id: 1,
     color: "from-red-300 to-blue-300",
-    title: "React Commerce",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "/",
+    title: "React App Poll Master",
+    desc: "Web application for creating and managing interactive surveys, featuring real-time result tracking and comprehensive analytics. Built with modern technologies including React for dynamic interfaces, TypeScript for type safety, Redux Toolkit for state management, and Tailwind CSS for responsive design.",
+    img: "https://i.imgur.com/Q3Ow28X.png",
+    link: "https://pollmaster-aab4f.web.app/",
   },
   {
     id: 2,
     color: "from-blue-300 to-violet-300",
-    title: "Next.js Medium Blog",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "/",
+    title: "Data Analysis Dashboard",
+    desc: "CSV and XLSX data analysis application designed for efficient data processing and visualization. Built with React for interactive components and TypeScript for enhanced code reliability, utilizing Vite as a modern build tool for optimal performance.",
+    img: "https://i.imgur.com/VdL0kmX.png",
+    link: "https://analysisdashboard-data.web.app",
   },
   {
     id: 3,
     color: "from-violet-300 to-purple-300",
-    title: "Vanilla Book App",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "/",
+    title: "Mario Romero Website",
+    desc: "Freelance project for Mario Romero Website, built with PHP, cpanel, and MySQL for a dynamic and responsive user experience.",
+    img: "https://i.imgur.com/Y25AKQq.png",
+    link: "https://marioromero.com.co/",
   },
   {
     id: 4,
     color: "from-purple-300 to-red-300",
-    title: "Spotify Music App",
+    title: "DataCamp Projects and Career",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
     img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     link: "/",
@@ -76,8 +76,8 @@ const PortfolioPage = () => {
                   <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px]">
                     {item.desc}
                   </p>
-                  <Link href={item.link} className="flex justify-end">
-                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Demo</button>
+                  <Link href={item.link} className="flex justify-end" target="_blank" rel="noopener noreferrer">
+                  <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Demo</button>
                   </Link>
                 </div>
               </div>
