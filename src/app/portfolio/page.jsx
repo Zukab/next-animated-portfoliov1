@@ -120,7 +120,7 @@ const PortfolioPage = () => {
       transition={{ duration: 1 }}
     >
       {/* LANGUAGE BUTTONS */}
-      <div className="fixed top-4 right-4 z-50 flex gap-4">
+      <div className="fixed top-4 right-1/2 transform translate-x-1/2 z-50 flex gap-4">
         <button
           className={`p-2 rounded-lg font-semibold transition duration-300 ease-in-out transform ${
             language === "en" ? "bg-black text-white" : "bg-gray-200 text-black"
