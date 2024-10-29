@@ -40,14 +40,7 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">Biography</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-            Juan Sebastian Quintero Fernandez is a Colombian Computer Science Engineer who
-            graduated in 2023 with a distinguished GPA of 4.11/5.0. Throughout his professional
-            career, he has developed innovative web solutions, including an interactive survey
-            platform and a sophisticated data analysis system. His experience includes notable
-            freelance projects, such as developing a political campaign website, and he holds an 
-            Associate Data Engineer certification from DataCamp. Fluent in Spanish and English,
-            with basic Portuguese skills, he focuses on creating intuitive technological solutions that
-            prioritize user experience.
+            Juan Sebastian Quintero Fernandez is a <a href="https://media.licdn.com/dms/image/v2/D4E2DAQGnK3cZMQEmfA/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1730147715232?e=1730754000&v=beta&t=fQvNR7zX3vfzc9h6fbD6b6OeHtONjDEl6kQaiPDn9OY" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Colombian Computer Science Engineer</a> who graduated in 2023 with a distinguished GPA of 4.11/5.0. Throughout his professional career, he has developed innovative web solutions, including an interactive survey platform and a sophisticated data analysis system. His experience includes notable freelance projects, such as developing a political campaign website, and he holds an Associate Data Engineer certification from DataCamp. Fluent in Spanish and English, with basic Portuguese skills, he focuses on creating intuitive technological solutions that prioritize user experience.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">

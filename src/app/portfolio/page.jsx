@@ -54,7 +54,7 @@ const PortfolioPage = () => {
           color: "from-purple-300 to-red-300",
           title: "DataCamp Projects and Career",
           desc: "Experienced in data engineering through DataCamp's comprehensive program, with expertise in SQL, Python, and cloud computing. Completed the Associate Data Engineer track, mastering database design, data warehousing, and ETL processes.",
-          img: "https://i.imgur.com/NQeODxU.png",
+          img: "https://i.imgur.com/LfNJr2b.png",
           link: "https://www.datacamp.com/portfolio/juansebastianquinterofernandez",
           button: "See Demo"
         },

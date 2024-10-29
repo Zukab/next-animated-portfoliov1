@@ -82,7 +82,7 @@ const Navbar = () => {
           href="/"
           className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center"
         >
-          <span className="text-white mr-1 w-20 flex items-center justify-center ">Sebastián</span>
+          <span className="text-white mr-1 w-20 flex items-center justify-center ">Sebastian</span>
           <span className="w-20 h-8 rounded bg-white text-black flex items-center justify-center">
             Quintero
           </span>
