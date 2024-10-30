@@ -3,12 +3,13 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const Homepage = () => {
   const [language, setLanguage] = useState("en");
   const router = useRouter();
   
-  const cvUrl = "https://drive.google.com/file/d/1qOU4ix2YfZfVrUqA_3LITF8FaUkPzO7Q/view?usp=sharing";
+  const cvUrl = "https://drive.google.com/file/d/1X1c8pLfCOBMn3DRkX4DB6X1nhlN4yIaO/view?usp=sharing";
   
   const downloadCV = () => {
     window.open(cvUrl, "_blank");
@@ -23,14 +24,14 @@ const Homepage = () => {
       ),
       description:
         "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-      hireMe: "HIRE ME",
+      hireMe: "Hire Me",
       cv: "CV"
     },
     es: {
       title: "Hola, Soy Sebastián",
       description:
         "Soy una persona motivada y versátil, siempre dispuesta a asumir nuevos desafíos. Con pasión por aprender, me dedico a entregar resultados de alta calidad. Con una actitud positiva y una mentalidad de crecimiento, estoy lista para hacer una contribución significativa y lograr grandes cosas.",
-      hireMe: "CONTRÁTAME",
+      hireMe: "Contrátame",
       cv: "CV"
     },
   };
@@ -301,12 +302,14 @@ const Homepage = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 1.1 }}
           >
-            <button
-              className="px-6 py-4 w-32 rounded-lg bg-gradient-to-r from-gray-800 to-black text-white font-semibold transition duration-300 ease-in-out transform hover:bg-gray-700 hover:scale-105"
-              onClick={downloadCV}
+            <Link
+              href="https://drive.google.com/file/d/1X1c8pLfCOBMn3DRkX4DB6X1nhlN4yIaO/view?usp=sharing"
+              className="px-6 py-4 w-32 rounded-lg bg-gradient-to-r from-blue-400 to-violet-400 text-white font-semibold transition duration-300 ease-in-out transform hover:from-blue-500 hover:to-violet-500 hover:scale-105"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              {content[language].cv}
-            </button>
+              View CV
+            </Link>
             <button
               className="px-6 py-4 w-32 rounded-lg bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold transition duration-300 ease-in-out transform hover:from-purple-700 hover:to-blue-700 hover:scale-105"
               onClick={() => router.push('/contact')}
