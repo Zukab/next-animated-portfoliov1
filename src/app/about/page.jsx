@@ -1,5 +1,4 @@
 "use client";
-import Brain from "@/components/brain";
 import { motion, useInView, useScroll } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
@@ -253,7 +252,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                  Mario Romero's political campaign, candidate for mayor of Villavicencio 2024,
+                  Mario Romero&apos;s political campaign, candidate for mayor of Villavicencio 2024,
                   resulting in over 15,000 votes.{" "}
                   </div>
                   {/* JOB DATE */}

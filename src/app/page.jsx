@@ -11,15 +11,11 @@ const Homepage = () => {
   
   const cvUrl = "https://drive.google.com/file/d/1X1c8pLfCOBMn3DRkX4DB6X1nhlN4yIaO/view?usp=sharing";
   
-  const downloadCV = () => {
-    window.open(cvUrl, "_blank");
-  };
-  
   const content = {
     en: {
       title: (
         <span>
-          Hi, I'm Sebastian.
+          Hi, I&apos;m Sebastian.
         </span>
       ),
       description:
