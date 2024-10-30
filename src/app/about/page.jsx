@@ -29,7 +29,7 @@ const AboutPage = () => {
           <div className="flex flex-col gap-12 justify-center">
             {/* BIOGRAPHY IMAGE */}
             <Image
-              src="https://i.imgur.com/OpEkoZC.jpeg"//put image here, ur image should be in public folder
+              src="https://i.imgur.com/eefVav3.png"//put image here, ur image should be in public folder
               alt=""
               width={112}
               height={112}
