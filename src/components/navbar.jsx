@@ -47,12 +47,17 @@ const Navbar = () => {
   const listVariants = {
     closed: {
       x: "100vw",
+      transition: {
+        delay: 0.2
+      }
     },
     opened: {
       x: 0,
       transition: {
+        type: "spring",
+        stiffness: 100,
         when: "beforeChildren",
-        staggerChildren: 0.2,
+        staggerChildren: 0.1,
       },
     },
   };
@@ -73,7 +78,7 @@ const Navbar = () => {
       {/* LINKS */}
       <div className="hidden md:flex gap-4 w-1/3">
         {links.map((link) => (
-          <NavLink link={link} key={link.title} />
+          <NavLink link={link} key={link.title} setOpen={setOpen} />
         ))}
       </div>
       {/* LOGO */}
@@ -131,16 +136,18 @@ const Navbar = () => {
           <motion.div
             variants={listVariants}
             initial="closed"
-            animate="opened"
-            className="absolute top-0 left-0 w-screen h-screen bg-black text-white flex flex-col items-center justify-center gap-8 text-4xl z-40"
+            animate={open ? "opened" : "closed"}
+            className="fixed top-0 left-0 w-screen h-screen bg-black text-white flex flex-col items-center justify-center gap-8 text-4xl"
+            style={{ zIndex: 1000 }}
           >
             {links.map((link) => (
               <motion.div
                 variants={listItemVariants}
-                className=""
                 key={link.title}
+                className="hover:text-gray-300 cursor-pointer"
+                style={{ zIndex: 1001 }}
               >
-                <Link href={link.url}>{link.title}</Link>
+                <NavLink link={link} setOpen={setOpen} />
               </motion.div>
             ))}
           </motion.div>
