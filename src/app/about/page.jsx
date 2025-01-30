@@ -39,7 +39,7 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">Biography</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-            Juan Sebastian Quintero Fernandez is a <a href="https://media.licdn.com/dms/image/v2/D4E2DAQGnK3cZMQEmfA/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1730147715232?e=1730754000&v=beta&t=fQvNR7zX3vfzc9h6fbD6b6OeHtONjDEl6kQaiPDn9OY" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Colombian Computer Science Engineer</a> who graduated in 2023 with a distinguished GPA of 4.11/5.0. Throughout his professional career, he has developed innovative web solutions, including an interactive survey platform and a sophisticated data analysis system. His experience includes notable freelance projects, such as developing a political campaign website, and he holds an Associate Data Engineer certification from DataCamp. Fluent in Spanish and English, with basic Portuguese skills, he focuses on creating intuitive technological solutions that prioritize user experience.
+            Sebastian Quintero is a <a href="https://media.licdn.com/dms/image/v2/D4E2DAQGnK3cZMQEmfA/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1730147715232?e=1738868400&v=beta&t=L9xHgpdZF5Iq3DNGAVMuJCdwKK_zHQoOj1OHXwMG2ME" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Software Developer</a> and <a href="https://www.datacamp.com/portfolio/juansebastianquinterofernandez" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Data Engineer</a> with a strong focus on backend development and data processing. He has built innovative solutions, including a real-time survey platform and an interactive data analysis dashboard. His experience spans freelance projects where he developed scalable applications and optimized backend systems using technologies like Python, Django, and Node.js. He holds advanced certifications in Data Engineering and Python from DataCamp and has extensive experience with Docker, Linux environments, and cloud services like AWS. Fluent in Spanish and English, with basic Portuguese skills, he focuses on creating efficient and maintainable software that delivers value through robust and scalable systems.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
@@ -131,12 +131,6 @@ const AboutPage = () => {
                 Cloud Computing
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                SnowSQL
-              </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Framer Motion
-              </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Figma
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
@@ -149,13 +143,19 @@ const AboutPage = () => {
                 Azure
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Git
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Github
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Java
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Snowflake
+                SQL
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                MongoDB
               </div>
             </motion.div>
             {/* SKILL SCROLL SVG */}
@@ -213,7 +213,7 @@ const AboutPage = () => {
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
                     I provided data engineering solutions, including data analysis and
-                    visualization, using React, Python and Snowflake.{" "}
+                    visualization, using Power BI, Python, Spark, AWS, and SQL.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
@@ -276,7 +276,7 @@ const AboutPage = () => {
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
                     I provided web solutions, applying a range of technologies
-                    to address client requirements using React and Figma.{" "}
+                    to address client requirements using React, vite, tailwind, and figma.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
